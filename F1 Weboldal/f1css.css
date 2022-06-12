@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	text-align: justify;
+	margin: 25px 75px 75px;
+}
+
+.header{
+	padding: 80px;
+	background-image: url("Images/f1header.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	color:black;
+}
+
+.menusor {
+	overflow: hidden;
+	background-color: #ff0100;
+	border: 2px solid #ff0100;
+	border-radius: 5px;
+	position: sticky;
+	position: -webkit-stick;
+	top:0;
+}
+
+.menusor a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.menusor a.jobb{
+	float: right;
+}
+
+.menusor a:hover {
+	background-color: #000000;
+	color:white;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+#kep1{
+border: 5px solid #ff0100;
+border-radius: 50%;
+max-width:80%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer {
+	max-width: 100%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.soforkep {
+	border: 4px solid #ff0100;
+	border-bottom-color: transparent;
+	border-radius: 10%;
+	max-width:80%;
+	height: auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 5px 5px;
+  float: left;
+  width: 25%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form{
+    text-align: center;
+    background-color: #fffff;
+    border-radius: 14px;
+	border: 5px solid #ff0100
+}
+.gomb{
+    margin-top: 8px;
+}
+
+.beadas{
+    background-color: #ff0100;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+	color: white;
+}
+
+.beadas:hover {
+background-color: #000000;
+color: white;
+}
+
+.ujra:hover {
+background-color: #000000;
+color: white;
+}
+
+.ujra{
+    background-color: #ff0100;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+	color: white;
+}
+textarea{
+    height: 100px;
+    width: 350px;
+    resize: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .menusor a {
+    float: none;
+    width: 100%;
+  }
+}
